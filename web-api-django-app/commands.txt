@@ -1,10 +1,18 @@
+// init project
 venv>  django-admin startproject drf .
-venv>  django-admin startapp api
 
+venv>  django-admin startapp api       
+/ OR / 
+venv> python manage.py startapp name
+
+// database
 venv>  python manage.py makemigrations
 venv>  python manage.py migrate
 
+// django admin panel & dashboard
 venv>  python manage.py createsuperuser
+
+// runserver...
 venv>  python manage.py runserver
 
 # go to url/admin to put credentials
@@ -12,4 +20,3 @@ venv>  python manage.py runserver
 #MODULES
 rest_framework
 coreapi
-
