@@ -1,6 +1,9 @@
 // init project
 venv>  django-admin startproject drf .
-venv>  django-admin startapp api
+
+venv>  django-admin startapp api       
+/ OR / 
+venv> python manage.py startapp name
 
 // database
 venv>  python manage.py makemigrations
